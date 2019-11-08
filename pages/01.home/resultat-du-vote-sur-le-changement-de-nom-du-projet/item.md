@@ -10,4 +10,5 @@ Comme expliqué notamment [ici](https://blog.alionet.org/fr/vote-sur-le-changeme
 
 Avec 42 voix en faveur d'un changement et 225 voix pour le maintien du nom **openSUSE**, les membres du Conseil ont maintenant une idée claire de la position de la communauté sur ce point et vont pouvoir entamer les travaux, études et négociations autour de l'usage de ce nom par la fondation à venir.
 Rappelons en effet qu'openSUSE n'ayant pas, pour l'heure, d'existence juridique, c'est l'entreprise parainne SUSE qui est propriétaire et se charge de protéger le nom déposé **openSUSE**.
+
 C'est notamment ce point important qui va évoluer lorsque de la fondation openSUSE verra le jour.
