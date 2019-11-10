@@ -7,8 +7,6 @@ feed:
 
 *30 octobre 2019 par [Douglas DeMaio](https://news.opensuse.org/author/ddemaio/ "Messages de Douglas DeMaio") - Traduction par sogal*
 
-![](./item.header.png)
-
 Depuis la dernière mise à jour, cinq instantanés d'[openSUSE](https://www.opensuse.org/) [Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) ont été publiés.
 
 L'instantané [20191027](https://lists.opensuse.org/opensuse-factory/2019-10/msg00375.html), a mis à jour [KDE Plasma 5.17.1](https://kde.org/announcements/plasma-5.17.1.php). La mise à jour du correctif a corrigé le profil d’accélération Mouse KCM sur [X11](https://www.x.org/) sur [Plasma Desktop](https://kde.org/plasma-desktop) et corrigeait un problème de visibilité du bouton Aide contextuelle pour [KWIN](https://userbase.kde.org/KWin).
