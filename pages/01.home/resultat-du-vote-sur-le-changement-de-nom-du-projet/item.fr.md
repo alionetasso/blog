@@ -1,5 +1,10 @@
 ---
 title: 'Résultat du vote sur le changement de nom du projet'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - opensuse
 visible: false
 feed:
     limit: 10
