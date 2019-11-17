@@ -10,7 +10,7 @@ hero_image: alionet_blog_banner.png
 content:
     items:
         - '@self.children'
-    limit: 5
+    limit: 10
     order:
         by: date
         dir: desc
