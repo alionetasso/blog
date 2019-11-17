@@ -1,5 +1,13 @@
 ---
 title: 'Xfce 4.14 est sorti et déjà dans Tumbleweed'
+media_order: 2019-banniere-Xfce4-14-300x75.png
+date: '30-08-2019 11:40'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - tumbleweed
+        - xfce
 feed:
     limit: 10
 ---
