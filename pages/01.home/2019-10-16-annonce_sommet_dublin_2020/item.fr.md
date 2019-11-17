@@ -12,8 +12,6 @@ feed:
     limit: 10
 ---
 
-![2020_sommet_openSUSE_Dublin](./2020_annonce_sommet_dublin.jpg)
-
 La communauté [openSUSE](https://www.opensuse.org/) se rendra en **Irlande les 27 et 28 mars 2020** pour le [sommet openSUSE de Dublin](https://events.opensuse.org/conferences/Dublin).
 
 Les inscriptions au sommet ont commencé et l'appel de contributions est ouvert jusqu'au 14 février.
