@@ -1,5 +1,6 @@
 ---
 title: 'Vote sur le changement de nom du projet'
+date: '04-10-2019 11:51'
 taxonomy:
     category:
         - blog
