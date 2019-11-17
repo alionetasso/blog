@@ -1,12 +1,19 @@
 ---
-title: Co-Conference Logo Competition for 2020
+title: 'Co-Conference Logo Competition for 2020'
+media_order: 'oSC19_logo_thumb-150x150.png,libocon-150x150.png'
+date: '29-09-2019 11:31'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - conference
 visible: false
 feed:
     limit: 10
 ---
 
-![logo_opensuse_conference](oSC19_logo_thumb-150x150.png)
-![logo_libreoffice](libocon-150x150.png)
+![logo_opensuse_conference](./oSC19_logo_thumb-150x150.png)
+![logo_libreoffice](./libocon-150x150.png)
 
 Les communautés [LibreOffice](https://www.libreoffice.org/) et [openSUSE](https://www.opensuse.org/) tiendront une conférence conjointe l'année prochaine à Nuremberg, en Allemagne, et pour cette co-conférence spéciale, nous organisons un concours de logos. Les dates de l'événement sont encore en cours de finalisation, mais il y a certaines choses que nous pouvons faire avant.
 
