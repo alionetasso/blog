@@ -110,7 +110,6 @@ sudo systemctl enable nginx
 sudo systemctl start nginx
 ```
 
-
 * Dans votre navigateur internet, taper l’adresse `localhost` et le message « NGINX fonctionne » doit apparaître
 
 ### Premier paramétrage et test de PHP-FPM
@@ -125,7 +124,6 @@ phpinfo();
 ?>
 ```
 
-
 * Initialiser les fichiers de configuration
 
 ```
@@ -134,11 +132,9 @@ sudo cp /etc/php7/fpm/php-fpm.conf.default /etc/php7/fpm/php-fpm.conf
 sudo cp /etc/php7/fpm/php-fpm/php-fpm.d/www.conf.default /etc/php7/fpm/php-fpm/php-fpm.d/www.conf
 ```
 
-
 * Editer _php-fpm.conf_ ‘sudo nano /etc/php7/fpm/php-fpm.conf’ et décommenter en enlevant le symbole # de la ligne ci-dessous :
 
 `error_log = log/php-fpm.log`
-
 
 * Editer www.conf `sudo nano /etc/php7/fpm/php-fpm.d/www.conf` et modifier comme ci-dessous, en changeant user et groupet en enlevant le symbole de commentaire qui est cette fois `;` pour d’autres lignes :
 
@@ -149,7 +145,6 @@ listen.owner = nginx
 listen.group = nginx
 listen.mode = 0660
 ```
-
 
 Pour améliorer la performance, continuer à modifier `www.conf` de façon à écouter un socket et non un port. Pour cela, commenter avec `;` la ligne `listen = 127.0.0.1:9000` et ajouter une ligne pour pointer vers un socket :
 
@@ -214,7 +209,6 @@ tcp_nodelay on;
 server_tokens off; 
 ```
 
-
 ## Test & Restart NGINX&nbsp;:
 
 ```
@@ -246,7 +240,6 @@ En allouant 5Go de ram à mon serveur et avec une taille de 35Mo par requête PH
 Donc, éditer www.conf précédemment modifié `sudo nano /etc/php7/fpm/php-fpm.d/www.conf`
 
 puis chercher et ajuster les lignes du fichier comme suit : 
-
 
 ```
 pm.max_children = 150
@@ -331,7 +324,7 @@ Important car cela peut empêcher la connexion à Nextcloud malgré les bons nom
 
 `sudo chown -R nginx:nginx /var/lib/php7`
 
-# Création hôte virtuel Nextcloud dans NGINX
+## Création hôte virtuel Nextcloud dans NGINX
 
 Nous avançons maintenant dans le spécifique pour Nextcloud.
 
@@ -582,7 +575,7 @@ Executer la commande&nbsp;: `sudo mysql -uroot -p`
 Puis enter la commande:
 
 ```
-CREATE DATABASE nextcloud CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci; CREATE USER nextcloud_admin@localhost identified by 'admin_password'; GRANT ALL PRIVILEGES on nextcloud.\* to nextcloud_admin@localhost; FLUSH privileges; quit;
+CREATE DATABASE nextcloud CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci; CREATE USER nextcloud_admin@localhost identified by 'admin_password'; GRANT ALL PRIVILEGES on nextcloud.* to nextcloud_admin@localhost; FLUSH privileges; quit;
 ```
 
 ## Installation serveur Nextcloud
@@ -630,17 +623,15 @@ Pour améliorer les performances, ajouter à la fin (et avant `);`) du fichier /
 
 `'memcache.local' => '\OC\Memcache\APCu',`
 
-# fail2ban
+## fail2ban
 
 C’est pour bannir les adresses IP de personnes malveillantes qui tenteraient de s’identifier sur le serveur.
 
 Au bout de 3 tentatives infructueuses de connexion, l’adresse IP sera bannie.
 
-
-> Installation de fail2ban : `zypper in fail2ban`
+* Installation de fail2ban : `zypper in fail2ban`
 
 *(7 paquets d'installés : ed fail2ban libgamin-1-0 python2-pyinotify python2-systemd python-gamin whois)*
-
 
 * Créer le fichier `/etc/fail2ban/filter.d/nextcloud.conf` par `sudo nano /etc/fail2ban/filter.d/nextcloud.conf`
 
@@ -692,11 +683,11 @@ Status for the jail: nextcloud
 ```
 
 
-> Pour contrôler les IP bannies
+* Pour contrôler les IP bannies
 
 `sudo fail2ban-client status nextcloud `
 
-> Pour autoriser à nouveau une IP
+* Pour autoriser à nouveau une IP
 
 `sudo fail2ban-client set nextcloud unbanip ip_address`
 
@@ -712,7 +703,6 @@ Vous pouvez aussi par la suite faire en sorte que fail2ban vous envoie un email 
 
 
 Et voilà. Pour moi cela fonctionne du tonnerre. J’espère que cela pourra aider quelqu’un à se lancer !
-
 N’oublier pas de faire des sauvegardes régulières de vos données et serveurs (voir documentation sur nextcloud.com).
 
 Bien entendu, comme dit la maxime de nos jours, je me dois de décliner toute responsabilité en cas de perte de données ou de réinstallation du système...
