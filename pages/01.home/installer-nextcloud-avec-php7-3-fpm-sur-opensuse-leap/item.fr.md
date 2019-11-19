@@ -1,5 +1,13 @@
 ---
 title: 'Installer Nextcloud avec PHP7.3-FPM sur openSUSE Leap'
+media_order: 'nc.png,phpinfo.png'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - opensuse
+        - serveur
+        - nextcloud
 feed:
     limit: 10
 ---
