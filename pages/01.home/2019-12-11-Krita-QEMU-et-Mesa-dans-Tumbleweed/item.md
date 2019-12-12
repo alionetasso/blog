@@ -1,7 +1,14 @@
-Les instantanés Tumbleweed obtiennent une note excellente et des mises à jour de Krita, QEMU et Mesa
---------------------------------------------------
-
-![](./Tumbleweed-black-green-e1484142734195.png)
+---
+title: 'Les instantanés Tumbleweed obtiennent une note excellente et des mises à jour de Krita, QEMU et Mesa'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - tumbleweed
+visible: false
+feed:
+    limit: 10
+---
 
 Il y a eu 20 instantanés [openSUSE](https://www.opensuse.org/) [Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) publiés au mois de novembre et les instantanés ont apporté un grand nombre de paquets mis à jour pour inclure [KDE](https://kde.org/) [Applications 19.08.3](https://kde.org/announcements/announce-applications-19.08.3.php), [Frameworks 5.64.0](https://kde.org/announcements/kde-frameworks-5.64.0.php) [Plasma 5.17.2](https://kde.org/announcements/plasma-5.17.2.php) et [5.17.3](https://kde.org/announcements/plasma-5.17.3.php), [Linux](https://www.kernel.org/) 5.3.9 et 5.3.11, Mozilla [Firefox 70](https://www.mozilla.org/en-US/firefox/70.0/releasenotes/), [libvirt 5.9.0](https://www.libvirt.org/news.html) et plus.
 [Java 12 OpenJDK](https://openjdk.java.net/projects/jdk/12/) a été supprimé de la distribution.
