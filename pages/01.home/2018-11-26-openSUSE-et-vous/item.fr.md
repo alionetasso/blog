@@ -1,9 +1,17 @@
 ---
-title: "openSUSE & vous: Contribuer à notre projet"
+title: 'openSUSE & vous: Contribuer à notre projet'
+date: '26-11-2018 00:00'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - opensuse
+        - contribuer
 visible: false
 feed:
     limit: 10
 ---
+
 [traduction de openSUSE & you](https://rootco.de/2016-04-03-opensuse-and-you/)
 
   Le [projet openSUSE](https://translate.googleusercontent.com/translate_c?depth=1&hl=fr&prev=search&rurl=translate.google.com&sl=en&sp=nmt4&u=http://www.opensuse.org/&xid=17259,15700023,15700124,15700149,15700186,15700191,15700201&usg=ALkJrhhMji43GQNEySQM9ff8C9ykNGfk_A) est génial.  Nous faisons des choses fascinantes qui ouvrent de nouvelles voies dans le monde des logiciels libres et à code source ouvert . 

@@ -1,5 +1,10 @@
 ---
-title: Tumbleweed intègre une nouvelle version majeure d'OpenSSH
+title: 'Tumbleweed intègre une nouvelle version majeure d''OpenSSH'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - tumbleweed
 visible: false
 feed:
     limit: 10

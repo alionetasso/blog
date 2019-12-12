@@ -1,5 +1,11 @@
 ---
-title: Aidez à promouvoir openSUSE Leap 15.1 !
+title: 'Aidez à promouvoir openSUSE Leap 15.1 !'
+date: '01-05-2019 11:29'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - leap
 visible: false
 feed:
     limit: 10

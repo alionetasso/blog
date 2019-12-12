@@ -1,5 +1,11 @@
 ---
 title: 'Vote sur le changement de nom du projet'
+date: '04-10-2019 11:51'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - opensuse
 visible: false
 feed:
     limit: 10

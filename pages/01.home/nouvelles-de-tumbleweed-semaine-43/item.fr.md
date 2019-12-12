@@ -1,5 +1,10 @@
 ---
 title: 'Nouvelles de Tumbleweed, semaine 43'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - tumbleweed
 visible: false
 feed:
     limit: 10
