@@ -1,8 +1,10 @@
 ---
 title: 'Ouverture de l''élection au conseil d''administration d''openSUSE 2019-2020 - Appel à candidatures'
+media_order: i-want-you-1-238x300.jpg
 ---
 
-C'est l'heure des élections ! 
+C'est l'heure des élections !  
+![](i-want-you-1-238x300.jpg)
 
 Deux sièges sont à pourvoir au sein du conseil d'administration d'openSUSE. Gertjan Lettink a terminé son deuxième mandat. Simon Lees a terminé son premier mandat et il peut donc se présenter de nouveau comme candidat au Conseil s'il le souhaite.
 
