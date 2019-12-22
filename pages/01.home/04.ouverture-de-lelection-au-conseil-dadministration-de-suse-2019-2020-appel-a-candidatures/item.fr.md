@@ -1,16 +1,22 @@
 ---
 title: 'Ouverture de l''élection au conseil d''administration d''openSUSE 2019-2020 - Appel à candidatures'
 media_order: i-want-you-1-238x300.jpg
+taxonomy:
+    category:
+        - blog
+    tag:
+        - opensuse
+        - board
+visible: false
 ---
 
-C'est l'heure des élections !  
-![](i-want-you-1-238x300.jpg)
+**C'est l'heure des élections ! **
 
 Deux sièges sont à pourvoir au sein du conseil d'administration d'openSUSE. Gertjan Lettink a terminé son deuxième mandat. Simon Lees a terminé son premier mandat et il peut donc se présenter de nouveau comme candidat au Conseil s'il le souhaite.
 
 Le calendrier des élections est le suivant :
 
-== Phase 0 == 
+## Phase 0 
 
 5 décembre 2019
 
@@ -24,7 +30,7 @@ Le calendrier des élections est le suivant :
 
 * Clôture des nominations et des candidatures au Conseil d'administration
 
-== Phase 1 == 
+## Phase 1
 
 26 décembre 2019
 
@@ -34,7 +40,7 @@ Le calendrier des élections est le suivant :
 
 * La campagne d'adhésion se poursuit, possibilité de faire une demande d'adhésion à openSUSE, mais les membres ne pourront voter et ne pourront pas se présenter comme candidats.
 
-== Phase 2 ==
+## Phase 2
 
 16 janvier 2020
 
