@@ -16,11 +16,9 @@ Pour pouvoir se connecter, il faut disposer d'un compte rédacteur (en faire la 
 
 * Cliquer ensuite sur le lien **Pages** dans la barre latérale à gauche
 
-![](./01.png)
-
 * Cliquer sur **Ajouter** dans la barre supérieure, à droite
 
-![](./02.png)
+![](./01.png)
 
 * Dans le menu de création qui s'affiche, il convient de renseigner les éléments et options suivants:
 
@@ -30,9 +28,11 @@ Pour pouvoir se connecter, il faut disposer d'un compte rédacteur (en faire la 
     * Template de page: il faut choisir **Item**
     * Visible: Cliquer sur **Non**, sans cela l'article sera visible dans le menu du blog alors que nous voulons qu'il soit créé comme *enfant* de la page principale
 
-![](./03.png)
+![](./02.png)
 
 * Une fois les paramètres ci-dessus validés, nous allons pouvoir commencer la rédaction de l'article:
+
+![](./03.png)
 
 Le format employé est le [Markdown](https://commonmark.org/help/), se référer à ce lien pour voir les balises à utiliser.
 Pour ajouter une image d'en-tête de l'article, pas besoin de l'ajouter via un lien, il suffit d'enregister une première fois votre article pour que Grav vous permette de l'ajouter.
