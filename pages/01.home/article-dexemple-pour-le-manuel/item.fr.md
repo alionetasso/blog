@@ -5,8 +5,4 @@ feed:
     limit: 10
 ---
 
-# Ceci est un titre principal
-
-## Titre secondaire d'article
-
 Dans cet article, nous servons d'exemple pour le manuel du [blog Alionet](https://blog.alionet.org)
