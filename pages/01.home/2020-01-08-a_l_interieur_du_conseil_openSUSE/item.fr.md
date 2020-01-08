@@ -1,14 +1,7 @@
 ---
-title: 'Interview - Qu est-ce ça fait d'être au conseil openSUSE ?'
-taxonomy:
-    category:
-        - blog
-    tag:
-        - interview
-        - board
-visible: false
 feed:
     limit: 10
+titre: 2020-01-08-a_l_interieur_du_conseil_opensuse
 ---
 
 Vous savez déjà qu'openSUSE est une fantastique plateforme pour faire à peu près tout avec Linux. Alors, qu'est-ce qui se cache derrière cette distribution facile à utiliser et super puissante que nous connaissons et aimons et sur laquelle nous comptons ?
@@ -63,3 +56,4 @@ Comme vous pouvez le constater, il n'y a rien de magique à être membre du cons
 Cet article a été révisé à 10 h 35 le 7 janvier 2020 et traduit en français le 8 janvier 2020.
 
 *Source: https://news.opensuse.org/2020/01/07/qa-what-it-is-like-to-be-on-the-opensuse-board/**
+```
