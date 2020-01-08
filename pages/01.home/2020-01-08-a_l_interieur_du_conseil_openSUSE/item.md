@@ -1,5 +1,5 @@
 ---
-title: 'Interview - Qu'est-ce ça fait d'être au conseil openSUSE ?'
+title: 'Interview - Qu est-ce ça fait d'être au conseil openSUSE ?'
 taxonomy:
     category:
         - blog
