@@ -1,4 +1,5 @@
 ---
+title: 'Interview - Qu''est-ce ça fait d''être au conseil openSUSE ?'
 feed:
     limit: 10
 titre: 2020-01-08-a_l_interieur_du_conseil_opensuse
