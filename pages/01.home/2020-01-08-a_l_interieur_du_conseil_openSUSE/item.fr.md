@@ -56,5 +56,4 @@ Comme vous pouvez le constater, il n'y a rien de magique à être membre du cons
 
 Cet article a été révisé à 10 h 35 le 7 janvier 2020 et traduit en français le 8 janvier 2020.
 
-*Source: https://news.opensuse.org/2020/01/07/qa-what-it-is-like-to-be-on-the-opensuse-board/**
-```
+*Source: https://news.opensuse.org/2020/01/07/qa-what-it-is-like-to-be-on-the-opensuse-board/*
