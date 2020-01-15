@@ -1,5 +1,11 @@
 ---
 title: 'LibreOffice, Firefox et Curl reçoivent des mises à jour dans Tumbleweed'
+taxonomy:
+    category:
+        - blog
+    tag:
+        - tumbleweed
+visible: false
 feed:
     limit: 10
 titre: 2020-01-15-libreoffice-firefox-curl-mise-a-jour-dans-tumbleweed
