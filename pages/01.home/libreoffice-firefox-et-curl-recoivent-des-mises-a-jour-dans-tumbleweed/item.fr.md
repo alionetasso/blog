@@ -1,0 +1,38 @@
+---
+title: 'LibreOffice, Firefox et Curl reçoivent des mises à jour dans Tumbleweed'
+feed:
+    limit: 10
+---
+
+Plusieurs packages ont été mis à jour cette semaine pour [openSUSE Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) comme prévu après la période des fêtes. Cinq instantanés de la version rolling release ont été livrés jusqu'à présent cette semaine après avoir passé les tests rigoureux appliqués par [openQA](http://open.qa/).
+Les versions sont incroyablement stables avec des tendances ou des notes enregistrées supérieures à une note de 96, selon l'évaluateur de l'instantané Tumbleweed.
+
+L'instantané le plus récent, [20200112](https://lists.opensuse.org/opensuse-factory/2020-01/msg00202.html), a mis à jour l'environnement de bureau [Xfce](https://www.xfce.org/) avec une mise à jour pour xfce4-session 4.14.1 et xfce4-settings 4.14.2. Divers changements visibles par les développeurs ont été apportés à la [bibliothèque](https://en.wikipedia.org/wiki/Library_(computing)) [re2](https://github.com/google/re2) 20200101 de Google pour les mises à jour des[ Regex library](https://en.wikipedia.org/wiki/Regular_expression).
+
+L’application [GNOME](https://www.gnome.org/) de gestion d’images avec un compte Flickr d’utilisateur, [frogr](https://wiki.gnome.org/Apps/Frogr) 1.6, a supprimé l’utilisation dépréciée de [GTimeVal](https://people.gnome.org/~ryanl/glib-docs/glib-Date-and-Time-Functions.html#GTimeVal) . 
+
+La plateforme open source pour l'[extensibilité](https://en.wikipedia.org/wiki/Scale-out) du [stockage cloud](https://en.wikipedia.org/wiki/Cloud_storage) public et privé, [glusterfs](https://www.gluster.org/) 7.1, correction du rééquilibrage du stockage causé par une erreur d'entrée et correction d'une fuite de mémoire dans le processus [glusterfsd](https://github.com/gluster/glusterfs/blob/master/glusterfsd/src/glusterfsd.c). 
+
+La version 7.0.9.14 d'[ImageMagick](https://www.imagemagick.org/) a optimisé les performances des effets spéciaux de [Fx](https://imagemagick.org/script/fx.php) et de [virglrenderer](https://gitlab.freedesktop.org/virgl/virglrenderer) 0.8.1, qui est un projet visant à étudier la possibilité de créer un [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) 3D virtuel à utiliser dans les machines virtuelles [qemu](https://en.wikipedia.org/wiki/QEMU) pour accélérer le rendu 3D, quelques correctifs ont été ajouté.
+
+L'instantané a continué à mettre à jour les paquets pour les applications[ KDE](https://kde.org/) [19.12.1](https://kde.org/announcements/releases/19.12.1/) qui ont commencé dans l'instantané [20200111.](https://lists.opensuse.org/opensuse-factory/2020-01/msg00197.html) Des améliorations de la vitesse de la molette de défilement ont été faites pour le [Dolphin](https://kde.org/applications/system/dolphin/) de KDE, le logiciel de montage vidéo[ Kdenlive](https://kdenlive.org/en/) a eu plusieurs corrections et un ajustement pour un rendu plus rapide, et du code obsolète a été supprimé de l'[application](https://umbrello.kde.org/) diagram le paquet [umbrello](https://umbrello.kde.org/). La plupart des packages d'[[applications ](https://umbrello.kde.org/)de KDE](https://kde.org/applications/) ont également mis à jour l'année de copyright jusqu'en 2020.
+
+En plus des paquets des [applications](https://kde.org/announcements/releases/19.12.1/) [KDE](https://kde.org/) [19.12.1](https://kde.org/announcements/releases/19.12.1/) qui ont commencé à arriver dans l'instantané [20200111](https://lists.opensuse.org/opensuse-factory/2020-01/msg00197.html), le [Plasma 5.17.5 ](https://kde.org/announcements/plasma-5.17.5.php)de KDE est également arrivé dans l'instantané. 
+
+Le Plasma mis à jour a corrigé une régression dans  le[ port](https://doc.qt.io/qt-5/qtwidgets-index.html) d'une page de  l' applet "[QtWidgets](https://doc.qt.io/qt-5/qtwidgets-index.html)" et [corrigé le passage](https://bugs.kde.org/show_bug.cgi?id=415423) de Dolphin à un widget de commutation de bureau virtuel. 
+
+Le Plasma NetworkManager avait également un [correctif pour un crash](https://bugs.kde.org/show_bug.cgi?id=415856) lors de la modification des configurations avancées [IPv4](https://en.wikipedia.org/wiki/IPv4) . 
+
+Le correctif très attendu de la vulnérabilité de sécurité dans [Firefox](https://www.mozilla.org/en-US/) a été effectué avec la mise à jour Mozilla vers [Firefox 72.0.1](https://www.mozilla.org/en-US/firefox/72.0.1/releasenotes/); il y avait huit correctifs Common Vulnerabilities and Exposures (CVE) dans la mise à jour de la précédente version 71 incluse dans Tumbleweed, mais le 72.0.1 corrigeait le bogue que les pirates pouvaient utiliser pour accéder à un ordinateur de toute personne utilisant le navigateur en raison d'informations d'alias incorrectes dans le compilateur [IonMonkey ](https://wiki.mozilla.org/IonMonkey)JIT. 
+
+[LibreOffice](https://www.libreoffice.org/) 6.4.0.1 a ajouté un correctif pour corriger un bouton qui permettait le mauvais ordre d'une interface [Qt](https://www.qt.io/) et [curl](https://curl.haxx.se/) 7.68.0 avait une longue quantité de correctifs et de modifications pour inclure l'ajout d'une [implémentation BearSSL](https://bearssl.org/) vtls pour [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (TLS).
+
+La version 0.8.8 de snapper d'OpenSUSE avait une réécriture d'un sous-package de [Python]https://www.python.org/) vers[ C ++](http://www.cplusplus.com/) et plusieurs packages [YaST](https://yast.opensuse.org/) ont été mis à jour, ce qui comprenait la correction d'une erreur lors d'une mise à niveau si / var / lib / YaST2 manquait lors de l'utilisation de [Btrfs](https://en.wikipedia.org/wiki/Btrfs) .
+
+L'outil de dépannage [sysdig](https://github.com/draios/sysdig/releases) a été mis à jour dans l'instantané [20200110](https://lists.opensuse.org/opensuse-factory/2020-01/msg00188.html) ; il a corrigé une fuite de mémoire et mis à jour l'utilisation des[ API Kubernetes](https://kubernetes.io/docs/concepts/overview/kubernetes-api/) pour prendre en charge la version 1.16.v 
+
+De nombreux packages GNOME ont été mis à jour vers la version 3.34.3 et le [package fwupd](https://fwupd.org/) 1.3.6 pour la mise à jour du firmware a ajouté un nouveau plugin pour travailler avec la carte MultiMediaCard intégrée ([ eMMC](https://en.wikipedia.org/wiki/MultiMediaCard) )et dispositifs. 
+
+Une baisse des dépendances de [python3-setuptools](https://pypi.org/project/setuptools/) à partir de rpm-build a été effectuée avec la mise à jour de rpm 4.15.1 et du compilateur d'exécution de boucle intérieure optimisé (orc) 0.4.31 résolu divers problèmes [PowerPC](https://en.wikipedia.org/wiki/PowerPC) .
+
+Les instantanés [20200109](https://lists.opensuse.org/opensuse-factory/2020-01/msg00186.html) et [20200108](https://lists.opensuse.org/opensuse-factory/2020-01/msg00177.html) avaient une quantité minimale de mises à jour de packages, mais le [noyau Linux](https://www.kernel.org/) a été mis à jour vers la version 5.4.7 dans le [20200108](https://lists.opensuse.org/opensuse-factory/2020-01/msg00177.html) , qui fournissait une grande quantité de mises à jour à partir du noyau 5.3.12 précédent Tumbleweed était en cours d'exécution. Les mises à jour pour Btrfs dans le noyau étaient nombreuses et il y avait environ une poignée de correctifs dans le noyau pour IBM [s390](https://en.wikipedia.org/wiki/IBM_System/390) et pour le système de fichiers [ext4](https://en.wikipedia.org/wiki/Ext4) .
