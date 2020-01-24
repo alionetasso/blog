@@ -6,7 +6,7 @@ feed:
 ---
 
 Le gagnant du [concours du logo](https://news.opensuse.org/2019/09/27/co-conference-logo-competition-for-2020/) de la conférence [openSUSE](https://www.opensuse.org/) + [LibreOffice](https://www.libreoffice.org/) est Kukuh Syafaat d'Indonésie.
-
+![](winner-300x89.png)
 Le logo "Fresh Community Spirit" ("Nouvel esprit communautaire") de Kukuh est le gagnant et fait partie des 10 logos soumis dans le cadre du concours. La "Mystery Box" sera envoyée à Kukuh pour le dessin gagnant.
 
 En 2020, openSUSE et LibreOffice organiseront une conférence commune du 13 au 16 octobre à Nuremberg, en Allemagne.
