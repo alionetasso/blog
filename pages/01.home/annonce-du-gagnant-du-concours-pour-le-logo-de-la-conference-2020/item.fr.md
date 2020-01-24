@@ -1,5 +1,6 @@
 ---
 title: 'Annonce du gagnant du concours pour le logo de la conférence 2020'
+media_order: winner-300x89.png
 feed:
     limit: 10
 ---
