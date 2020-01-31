@@ -1,11 +1,12 @@
 ---
 title: 'Mises à jour de Libvirt, PHP et FFmpeg déployées sur Tumbleweed'
+media_order: 'Capture d’écran du 2020-01-30 18-05-28.png'
 feed:
     limit: 10
 ---
 
 Un total de cinq instantanés [openSUSE](https://www.opensuse.org/) [Tumbleweed](https://en.opensuse.org/Portal:Tumbleweed) ont été publiés depuis la semaine dernière pour les utilisateurs de la version rolling release.
-
+![](http://https://news.opensuse.org/wp-content/uploads/2016/05/Tumbleweed-black-green-300x127.png)
 Le package [Libvirt](https://libvirt.org/) 6.0 est arrivé plus tôt dans la semaine.
 
 [LibreOffice](https://www.libreoffice.org/) , [Firefox](https://www.mozilla.org/en-US/firefox/) , [PHP](https://www.php.net/) et [FFmpeg](https://www.ffmpeg.org/) ont été parmi les packages les plus notables à mettre à jour cette semaine.
