@@ -1,5 +1,6 @@
 ---
 title: 'Nouvelles adresses IP pour build.opensuse.org'
+date: '03-02-2020 21:00'
 taxonomy:
     category:
         - blog
