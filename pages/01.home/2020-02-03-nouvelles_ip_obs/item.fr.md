@@ -20,9 +20,9 @@ Les personnes utilisant cette instance de l'[Open Build Service](https://build.o
 
 Veuillez noter que cela affecte également les entrées CNAME (alias) suivantes:
 
-- [api.opensuse.org](api.opensuse.org)
-- [obs-analyze.opensuse.org](obs-analyze.opensuse.org)
-- [obs-grafana.opensuse.org](obs-grafana.opensuse.org)
-- [obs-measure.opensuse.org](obs-measure.opensuse.org)
-- [rabbit.opensuse.org](rabbit.opensuse.org)
-- [registry.opensuse.org](registry.opensuse.org)
+- [api.opensuse.org](https://api.opensuse.org)
+- [obs-analyze.opensuse.org](https://obs-analyze.opensuse.org)
+- [obs-grafana.opensuse.org](https://obs-grafana.opensuse.org)
+- [obs-measure.opensuse.org](https://obs-measure.opensuse.org)
+- [rabbit.opensuse.org](https://rabbit.opensuse.org)
+- [registry.opensuse.org](https://registry.opensuse.org)
