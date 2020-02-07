@@ -66,7 +66,7 @@ Ma commande pour mettre à jour la copie locale de mon référentiel OBS.
 
 Vous pouvez accéder à vos favoris via `Ctrl + Maj + B`, il vous suffit de le sélectionner et la commande correspondante est lancée:
 
-![Tilix](./ tilix_2_05_bookmarkusage.png)
+![Tilix](./tilix_2_05_bookmarkusage.png)
 
 ## Liens personnalisés
 
