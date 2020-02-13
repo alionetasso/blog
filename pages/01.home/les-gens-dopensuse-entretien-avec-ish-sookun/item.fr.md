@@ -4,7 +4,7 @@ feed:
     limit: 10
 ---
 
-##### Pouvez-vous nous parler un peu de vous ?
+#### Pouvez-vous nous parler un peu de vous ?
 
 Je vis sur une île au milieu de l'océan Indien (20°2′ S, 57°6′ E), appelée Maurice. Je travaille pour une entreprise qui me soutient en contribuant au projet openSUSE. Cela dit, nous utilisons aussi beaucoup openSUSE sur le lieu de travail.
 Parlez-nous de vos premières interactions avec les ordinateurs ? Comment votre voyage avec Linux a-t-il commencé ?
