@@ -1,9 +1,11 @@
 ---
 title: 'Les gens d''openSUSE : Entretien avec Ish Sookun'
+media_order: Ish_Sookun_at_oSC19-300x169.jpg
 feed:
     limit: 10
 ---
 
+![](Ish_Sookun_at_oSC19-300x169.jpg)
 ##### Pouvez-vous nous parler un peu de vous ?
 
 Je vis sur une île au milieu de l'océan Indien (20°2′ S, 57°6′ E), appelée Maurice. Je travaille pour une entreprise qui me soutient en contribuant au projet [openSUSE](https://www.opensuse.org/). Cela dit, nous [utilisons aussi beaucoup openSUSE](https://software.opensuse.org/) sur le lieu de travail.
