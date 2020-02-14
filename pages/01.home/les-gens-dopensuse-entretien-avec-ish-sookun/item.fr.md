@@ -9,7 +9,7 @@ feed:
 ##### Pouvez-vous nous parler un peu de vous ?
 
 Je vis sur une île au milieu de l'océan Indien (20°2′ S, 57°6′ E), appelée Maurice. Je travaille pour une entreprise qui me soutient en contribuant au projet [openSUSE](https://www.opensuse.org/). Cela dit, nous [utilisons aussi beaucoup openSUSE](https://software.opensuse.org/) sur le lieu de travail.
-Parlez-nous de vos premières interactions avec les ordinateurs ? Comment votre voyage avec Linux a-t-il commencé ?
+##### Parlez-nous de vos premières interactions avec les ordinateurs ? Comment votre voyage avec Linux a-t-il commencé ?
 
 Mon interaction avec les ordinateurs n'a commencé qu'à la fin de mes études universitaires et j'ai découvert Linux après que quelques étudiants qui suivaient des cours d'informatique à l'époque m'aient murmuré que le terme "Linux" était une chose super compliquée. Cela a attiré mon attention et je suis devenu accro depuis. J'ai fait quelques années de distro hopping (changement incessant de distribution) jusqu'à ce qu'en 2009 je m'installe avec openSUSE.
 ##### Pouvez-vous nous en dire plus sur votre participation à openSUSE et pourquoi elle a commencé ?
