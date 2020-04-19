@@ -4,17 +4,17 @@ feed:
     limit: 10
 ---
 
-SUSE a envoyé une [proposition à la communauté openSUSE](https://lists.opensuse.org/opensuse-project/2020-04/msg00002.html) concernant le transfert des flux de code de SUSE Linux Enterprise et de [openSUSE Leap]( https://en.opensuse.org/Portal:Leap) se rapprochent. La proposition comprend des binaires SLE pour la version communautaire.
+SUSE a envoyé une [proposition à la communauté openSUSE](https://lists.opensuse.org/opensuse-project/2020-04/msg00002.html) pour rapprocher les flux de code de SUSE Linux Enterprise et de [openSUSE Leap]( https://en.opensuse.org/Portal:Leap). La proposition comprend des binaires SLE pour la version communautaire.
 
-Rapprocher les flux de code pour fournir une compatibilité totale offre plusieurs avantages à la communauté à l'avenir, tels que l'utilisation de code de meilleure qualité en raison du nettoyage des fichiers de spécifications, une relation améliorée entre les deux distributions, un rapport de bogue plus facile, moins de flux de code à maintenir, des packages largement testés et l'inclusion d'architectures prises en charge SLE comme s390x.
+Rapprocher les flux de code pour fournir une compatibilité totale offre plusieurs avantages à la communauté pour l'avenir, tels que l'utilisation de code de meilleure qualité en raison du nettoyage des fichiers de spécifications, une relation améliorée entre les deux distributions, un rapport de bogue plus facile, moins de flux de code à maintenir, des paquets largement testés et l'inclusion d'architectures prises en charge par SLE comme s390x.
 
-"Grâce à ce changement, nous pouvons mieux utiliser nos ressources car une seule base de code converge, donc une cible de construction de moins à considérer", a déclaré Axel Braun, membre du conseil d'administration d'OpenSUSE, dans un [e-mail envoyé à la communauté à propos de la proposition](https: //lists.opensuse.org/opensuse-project/2020-04/msg00002.html). "Tous ceux qui emballent pour Leap et pour Package Hub en bénéficieront immédiatement."
+"Grâce à ce changement, nous pouvons mieux utiliser nos ressources car une seule base de code converge, donc une cible de construction de moins à considérer", a déclaré Axel Braun, membre du conseil d'administration d'OpenSUSE, dans un [e-mail envoyé à la communauté à propos de la proposition](https: //lists.opensuse.org/opensuse-project/2020-04/msg00002.html). "Tous ceux qui font des paquets pour Leap et pour Package Hub en bénéficieront immédiatement."
 
 La proposition a fourni une approche par étapes pour la mise en œuvre de la vision. L'e-mail répertorie les options suivantes:
 
-- Fusionnez autant que possible les bases de code pour l'intersection d'OpenSUSE Leap 15.2 et de SUSE Linux Enterprise 15 SP2 sans perte de stabilité ou de fonctionnalité. (SUSE a en fait commencé à fusionner de Leap avec SUSE Linux Enterprise.)
-- Créez une version intermédiaire d'OpenSUSE Leap dans laquelle des binaires SLE sont utilisés à l'intérieur (période d'octobre 2020) en parallèle avec Leap 15.2 classique.
-- Construisez openSUSE Leap 15.3 avec les binaires SLE inclus par défaut (en supposant l'accord de la communauté).
+- Fusionner autant que possible les bases de code pour l'intersection d'OpenSUSE Leap 15.2 et de SUSE Linux Enterprise 15 SP2 sans perte de stabilité ou de fonctionnalité. (SUSE a en fait commencé à fusionner Leap avec SUSE Linux Enterprise.)
+- Créer une version intermédiaire d'OpenSUSE Leap dans laquelle des binaires SLE sont utilisés à l'intérieur (période d'octobre 2020) en parallèle avec Leap 15.2 classique.
+- Construire openSUSE Leap 15.3 avec les binaires SLE inclus par défaut (en supposant l'accord de la communauté).
 
 La distribution Leap partage déjà une quantité importante de code source principal avec SLE. Leap 15.2 sera basé sur les sources de SLE 15 SP 2, mais pas sur les binaires.
 
