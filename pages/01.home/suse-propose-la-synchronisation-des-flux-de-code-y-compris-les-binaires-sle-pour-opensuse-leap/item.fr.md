@@ -8,7 +8,7 @@ SUSE a envoyé une [proposition à la communauté openSUSE](https://lists.opensu
 
 Rapprocher les flux de code pour fournir une compatibilité totale offre plusieurs avantages à la communauté pour l'avenir, tels que l'utilisation de code de meilleure qualité en raison du nettoyage des fichiers de spécifications, une relation améliorée entre les deux distributions, un rapport de bogue plus facile, moins de flux de code à maintenir, des paquets largement testés et l'inclusion d'architectures prises en charge par SLE comme s390x.
 
-"Grâce à ce changement, nous pouvons mieux utiliser nos ressources car une seule base de code converge, donc une cible de construction de moins à considérer", a déclaré Axel Braun, membre du conseil d'administration d'OpenSUSE, dans un [e-mail envoyé à la communauté à propos de la proposition](https: //lists.opensuse.org/opensuse-project/2020-04/msg00002.html). "Tous ceux qui font des paquets pour Leap et pour Package Hub en bénéficieront immédiatement."
+"Grâce à ce changement, nous pouvons mieux utiliser nos ressources car une seule base de code converge, donc une cible de construction de moins à considérer", a déclaré Axel Braun, membre du conseil d'administration d'OpenSUSE, dans un [e-mail envoyé à la communauté à propos de la proposition](https://lists.opensuse.org/opensuse-project/2020-04/msg00002.html). "Tous ceux qui font des paquets pour Leap et pour Package Hub en bénéficieront immédiatement."
 
 La proposition a fourni une approche par étapes pour la mise en œuvre de la vision. L'e-mail répertorie les options suivantes:
 
