@@ -38,4 +38,4 @@ Une feuille de route pour la construction d'un prototype et d'une proposition de
 
 La foire aux questions sur ce sujet est disponible sur [https://en.opensuse.org/Portal:Leap/FAQ/ClosingTheLeapGap](https://en.opensuse.org/Portal:Leap/FAQ/ClosingTheLeapGap).
 
-[Source](https://news.opensuse.org/2020/04/10/SUSE-proposes-synchronizing-code-streams-includes-SLE-binaries-for-openSUSE-Leap/)
+[Source : article de https://news.opensuse.org](https://news.opensuse.org/2020/04/10/SUSE-proposes-synchronizing-code-streams-includes-SLE-binaries-for-openSUSE-Leap/)
