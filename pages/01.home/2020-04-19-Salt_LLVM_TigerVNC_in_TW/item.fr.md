@@ -1,5 +1,5 @@
 ---
-title: 'Salt, LLVM et TigerVNC dans Tumbleweed
+title: 'Salt, LLVM et TigerVNC dans Tumbleweed'
 taxonomy:
     category:
         - blog
