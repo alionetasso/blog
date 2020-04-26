@@ -34,7 +34,7 @@ L'équipe d'ingénierie des versions est intéressée par les commentaires des c
 
 Le retour d'information est une partie importante de ce processus car le projet cherche à obtenir plus de code source SLE, a souligné Kocman.
 
-Une feuille de route pour la construction d'un prototype et d'une proposition de version sera disponible sur [https://en.opensuse.org/openSUSE:Roadmap-2010](https://en.opensuse.org/openSUSE:Roadmap).
+Une feuille de route pour la construction d'un prototype et d'une proposition de version sera disponible sur [https://en.opensuse.org/openSUSE:Roadmap](https://en.opensuse.org/openSUSE:Roadmap).
 
 La foire aux questions sur ce sujet est disponible sur [https://en.opensuse.org/Portal:Leap/FAQ/ClosingTheLeapGap](https://en.opensuse.org/Portal:Leap/FAQ/ClosingTheLeapGap).
 
