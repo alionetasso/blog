@@ -38,4 +38,4 @@ Restez à l'écoute, restez chez vous, soyez en sécurité et restez vert.
 
 L'équipe SUSE Linux Enterprise
 
-_Traduction de l'article de _Vincent Moutoussamy : [Discuss, Define and be Transparent with the openSUSE-Community](https://news.opensuse.org/2020/04/29/Discuss-Define-and-be-Transparent-with-the-openSUSE-Community/)
+_Traduction de l'article de Vincent Moutoussamy : [Discuss, Define and be Transparent with the openSUSE-Community](https://news.opensuse.org/2020/04/29/Discuss-Define-and-be-Transparent-with-the-openSUSE-Community/)_
