@@ -18,7 +18,7 @@ Sans plus attendre, voici nos actions :
 
 * Rafraîchir et créer des pages wiki openSUSE pour la clarification des processus
 	* Luboš Kocman a déjà commencé à [documenter le processus mis en place pour récupérer les demandes de fonctionnalités de SLE](https://en.opensuse.org/Portal:Leap/SLEFeatureRequests) et son projet est de présenter un processus réellement amélioré pour les contributeurs externes d'ici octobre ou plus tôt.
-	*  Nous allons également revoir et améliorer “[how to contribute ](https://en.opensuse.org/openSUSE:Packaging_for_Leap), [openSUSE Leap development phase](https://en.opensuse.org/openSUSE:Leap_development_process)” ("comment contribuer, phase de développement openSUSE Leap") afin de clarifier et formaliser les informations qui existaient depuis des années, mais qui n'étaient pas documentées.
+	*  Nous allons également revoir et améliorer “[comment contribuer](https://en.opensuse.org/openSUSE:Packaging_for_Leap), [phase de développement openSUSE Leap](https://en.opensuse.org/openSUSE:Leap_development_process)” afin de clarifier et formaliser les informations qui existaient depuis des années, mais qui n'étaient pas documentées.
 	*  Créer une nouvelle page sur notre "Politique SLE Factory First", et les sujets potentiels de maintenance et d'assurance qualité.
 * Parler plus ouvertement de la relation entre openSUSE et SLE,
 	* "[Stratégie actuelle et future pour openSUSE Leap](https://events.opensuse.org/conferences/oSvirtsmt/program/proposals/3071)" et "[Jump ! État actuel et changements à venir](https://events.opensuse.org/conferences/oSLO/program/proposals/2960)" pendant le [sommet virtuel d'openSUSE](https://events.opensuse.org/conferences/oSvirtsmt).
