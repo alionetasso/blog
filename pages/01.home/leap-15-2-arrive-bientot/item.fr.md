@@ -4,7 +4,7 @@ feed:
     limit: 10
 ---
 
-[img]https://countdown.opensuse.org/[/img]
+![compteur_Leap_15.2]([img]https://countdown.opensuse.org/[/img])
 
 La version 15.2 d'openSUSE Leap sera bientôt disponible. Pour aider à faire connaître la sortie de cette version, nous avons des compteurs disponibles sur counter.opensuse.org et d'autres illustrations récemment téléchargées sur https://github.com/openSUSE/artwork/. Vous pouvez mettre ces éléments sur vos médias sociaux ou vos pages de blog pour vous assurer que tout le monde sache que la sortie est imminente ! Pour vos comptes de blog et de médias sociaux, si vous voulez décorer votre blog ou votre site web avec une jolie bannière Leap 15.2, prenez l'un des éléments suivants
 
