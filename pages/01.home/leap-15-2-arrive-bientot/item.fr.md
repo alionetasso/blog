@@ -10,4 +10,4 @@ La version 15.2 d'openSUSE Leap sera bientôt disponible. Pour aider à faire co
 
 ## Compte à rebours en ligne
 
-Vous pouvez ajouter le compteur de versions d'openSUSE 15.2 à votre site web en différentes tailles en incluant le code html suivant dans votre blog : [code]<a href="//en.opensuse.org/Portal:15.2"><img src="//compteur.opensuse.org/**moyen**.png" border="0"/></a><br/>[/code] "moyen" est la taille du compteur ; il peut aussi être "petit" ou "grand" et nous avons aussi "large" pour une bannière. Voir la page Compte à rebours sur le Wiki openSUSE pour plus d'informations sur le compte à rebours, le code et les conseils !
+Vous pouvez ajouter le compteur de versions d'openSUSE 15.2 à votre site web en différentes tailles en incluant le code html suivant dans votre blog : <a href="//en.opensuse.org/Portal:15.2"><img src="//compteur.opensuse.org/**moyen**.png" border="0"/></a><br/>  "moyen" est la taille du compteur ; il peut aussi être "petit" ou "grand" et nous avons aussi "large" pour une bannière. Voir la page Compte à rebours sur le Wiki openSUSE pour plus d'informations sur le compte à rebours, le code et les conseils !
