@@ -1,5 +1,5 @@
 ---
-title: 'L''équipe de publication demande un retour d''information sur openSUSE Leap "15.2"L''équipe de publication demande un retour d''information sur openSUSE Leap "15.2"'
+title: 'L''équipe de publication demande un retour d''information sur openSUSE Leap "15.2"'
 feed:
     limit: 10
 ---
