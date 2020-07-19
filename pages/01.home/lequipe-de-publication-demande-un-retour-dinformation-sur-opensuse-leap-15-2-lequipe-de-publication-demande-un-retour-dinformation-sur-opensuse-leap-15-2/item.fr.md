@@ -9,7 +9,7 @@ L'équipe de publication d'[openSUSE](https://www.opensuse.org/) souhaite recuei
 
 L'enquête est disponible à l'adresse [https://survey.opensuse.org.](https://survey.opensuse.org/)
 
-[openSUSE Leap 15.2](https://fr.opensuse.org/Portal:15.2) a été publié le 2 juillet. Deux semaines d'installation et d'utilisation de la version constituent un bon délai pour recueillir des idées et des réflexions nouvelles sur ce que les gens pensent de la version. L'enquête se concentre sur ces deux questions : qu'est-ce qui a bien marché et qu'est-ce qui n'a pas marché ?
+[openSUSE Leap 15.2](https://fr.opensuse.org/Portal:15.2) a été publié le 2 juillet 2020. Deux semaines d'installation et d'utilisation de la version constituent un bon délai pour recueillir des idées et des réflexions nouvelles sur ce que les gens pensent de la version. L'enquête se concentre sur ces deux questions : qu'est-ce qui a bien marché et qu'est-ce qui n'a pas marché ?
 
 C'est la question que l'équipe chargée de la version pose à ceux qui ont installé et utilisé [openSUSE Leap 15.2 .](https://fr.opensuse.org/Portal:15.2) 
 
