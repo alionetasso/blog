@@ -1,6 +1,5 @@
 ---
 title: 'openSUSE Leap "15.2" est disponible pour le sous-système Windows pour Linux (WSL)'
-published: true
 date: '21-07-2020 10:42'
 publish_date: '21-07-2020 10:43'
 feed:
