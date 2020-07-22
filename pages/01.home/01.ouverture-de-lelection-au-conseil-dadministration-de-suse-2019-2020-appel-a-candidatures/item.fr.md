@@ -1,13 +1,15 @@
 ---
 title: 'Ouverture de l''élection au conseil d''administration d''openSUSE 2019-2020 - Appel à candidatures'
 media_order: i-want-you-1-238x300.jpg
+publish_date: '06-12-2019 15:00'
 taxonomy:
     category:
         - blog
     tag:
         - opensuse
         - board
-visible: false
+feed:
+    limit: 10
 ---
 
 **C'est l'heure des élections ! **
