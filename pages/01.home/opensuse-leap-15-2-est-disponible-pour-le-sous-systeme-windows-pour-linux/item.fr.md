@@ -18,6 +18,6 @@ WSL permet aux utilisateurs d'exécuter des scripts Bash shell et des outils en 
 
 Leap 15.2 sur WSL n'est pas seulement pour les administrateurs système ; les développeurs qui veulent tirer parti de Linux et les utilisateurs qui voudraient l'apprendre sans mettre en place un système de double démarrage ou une machine virtuelle ont la possibilité d'essayer openSUSE et quelques autres distributions sur WSL.
 
-Avant d'installer une distribution Linux sur Windows, les utilisateurs doivent activer la fonction optionnelle "Windows Subsystem for Linux". La documentation sur l'utilisation de WSL est disponible sur le [wiki openSUSE] (https://fr.opensuse.org/openSUSE:WSL) et sur le [guide de démarrage rapide de Microsoft] (https://docs.microsoft.com/fr-fr/windows/wsl/install-win10).
+Avant d'installer une distribution Linux sur Windows, les utilisateurs doivent activer la fonction optionnelle "Windows Subsystem for Linux". La documentation sur l'utilisation de WSL est disponible sur le [wiki openSUSE](https://fr.opensuse.org/openSUSE:WSL) et sur le [guide de démarrage rapide de Microsoft](https://docs.microsoft.com/fr-fr/windows/wsl/install-win10).
 
 [Source : article de https://news.opensuse.org/](https://news.opensuse.org/2020/07/09/opensuse-leap-15-2-available-for-windows-subsystem-linux/)
