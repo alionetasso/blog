@@ -1,5 +1,6 @@
 ---
 title: 'openMVS est disponible pour Leap 15.2 et Tumbleweed'
+published: false
 feed:
     limit: 10
 ---
