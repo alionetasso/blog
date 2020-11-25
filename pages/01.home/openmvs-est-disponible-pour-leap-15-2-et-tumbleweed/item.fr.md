@@ -23,7 +23,7 @@ D'une manière générale, on distingue 4 étapes successives dans l'élaboratio
 
 Voyons donc sur un schéma comment tout cela s'articule, quand on compare à d'autres processus de traitement tels que ceux proposés par [MVE](https://www.gcc.tu-darmstadt.de/home/proj/mve/) et [VisualSFM](http://ccwu.me/vsfm/) :
 
-<a href="http://epysod12.free.fr/Alionet/openMVS/SfM_Pipeline.png"><img src="http://epysod12.free.fr/Alionet/openMVS/SfM_Pipeline.png" width="50%" alt="SfM_Pipeline"/></a>
+<a href="http://epysod12.free.fr/Alionet/openMVS/SfM_Pipeline.png"><img src="http://epysod12.free.fr/Alionet/openMVS/SfM_Pipeline.png" width="30%" alt="SfM_Pipeline"/></a>
 
 Et voici un exemple en images avec d'un côté les photos de départ d'un sujet de type architectural, et de l'autre un rendu (intermédiaire), ouvert dans MeshLab :
 
