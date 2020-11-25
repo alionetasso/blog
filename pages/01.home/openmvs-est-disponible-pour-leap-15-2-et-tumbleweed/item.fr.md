@@ -10,7 +10,7 @@ Depuis quelques semaines, le paquet [openMVS](https://cdcseacave.github.io/openM
 
 * Présentation d'openMVS et de ses outils
 
-Le paquet openMVS propose 7 outils : 4 pour traiter les données, 2 pour convertir les objets, et 1 pour visualiser les résultats (intermédiaires ou finaux). On retiendra donc **DensifyPointCloud**, **ReconstructMesh**, **RefineMesh** et **TextureMesh** pour traiter les données produites en amont par openMVG. Chaque outil dispose de ses propres options, pour en prendre connaissance on lance alors le programme sans arguments, dans un terminal.
+Le paquet openMVS propose 7 outils : 4 pour traiter les données, 2 pour convertir les objets, et 1 pour visualiser les résultats (intermédiaires ou finaux). On retiendra donc **DensifyPointCloud**, **ReconstructMesh**, **RefineMesh** et **TextureMesh** pour traiter les données produites en amont par openMVG. Chaque outil dispose de ses propres options, pour en prendre connaissance on lance alors le programme sans argument, dans un terminal.
 
 * Le principe de _pipeline_ : exemple et résultat
 
@@ -30,7 +30,7 @@ Et voici un exemple en images avec d'un côté les photos de départ d'un sujet 
 <img src="http://imagine.enpc.fr/~moulonp/openMVG/SfM_Images/input_images.jpg" width="40%" alt="Photos"/>
 <img src="http://imagine.enpc.fr/~moulonp/openMVG/SfM_Images/dense_Front.jpg" width="30%" alt="MeshLab"/>
 
-openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques pour tel ou tel outil. Voici un exemple de _script_ qui met l'accent sur la gestion des _logs_, c'est le seul moyen que j'ai trouvé pour suivre le processus de traitement des images :
+openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques à indiquer. Voici un exemple de _script_ qui met l'accent sur la gestion des _logs_, c'est un moyen efficace pour suivre le processus de traitement des images :
 
 [_RUN_openMVG.sh](http://epysod12.free.fr/Alionet/openMVS/_RUN_openMVG.sh)
 (dans cet exemple, le fichier <u>sensor_width_camera_database.txt</u> se situe dans le _home_ utilisateur)
