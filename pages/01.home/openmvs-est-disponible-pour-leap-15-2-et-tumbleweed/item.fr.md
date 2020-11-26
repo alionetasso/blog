@@ -27,8 +27,9 @@ Voyons donc sur un schéma comment tout cela s'articule, quand on compare à d'a
 
 Et voici un exemple en images avec d'un côté les photos de départ d'un sujet de type architectural, et de l'autre un rendu (intermédiaire), ouvert dans MeshLab :
 
-<img src="http://imagine.enpc.fr/~moulonp/openMVG/SfM_Images/input_images.jpg" width="40%" alt="Photos"/>
-<img src="http://imagine.enpc.fr/~moulonp/openMVG/SfM_Images/dense_Front.jpg" width="30%" alt="MeshLab"/>
+![MVG_input_images](MVG_input_images.jpg?resize=80%)
+
+![MVG_output_castle](MVG_output_castle.jpg?resize=40%)
 
 openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques à indiquer. Voici un exemple de _script_ qui met l'accent sur la gestion des _logs_, c'est un moyen efficace pour suivre le processus de traitement des images :
 
