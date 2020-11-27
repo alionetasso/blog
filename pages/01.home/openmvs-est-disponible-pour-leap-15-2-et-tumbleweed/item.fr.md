@@ -23,12 +23,11 @@ D'une manière générale, on distingue 4 étapes successives dans l'élaboratio
 
 Voyons donc sur un schéma comment tout cela s'articule, quand on compare à d'autres processus de traitement tels que ceux proposés par [MVE](https://www.gcc.tu-darmstadt.de/home/proj/mve/) et [VisualSFM](http://ccwu.me/vsfm/) :
 
-<a href="http://epysod12.free.fr/Alionet/openMVS/SfM_Pipeline.png"><img src="http://epysod12.free.fr/Alionet/openMVS/SfM_Pipeline.png" width="30%" alt="SfM_Pipeline"/></a>
+[![SfM_Pipeline](SfM_Pipeline.png?resize=40%)](SfM_Pipeline.png)
 
 Et voici un exemple en images avec d'un côté les photos de départ d'un sujet de type architectural, et de l'autre un rendu (intermédiaire), ouvert dans MeshLab :
 
 ![MVG_input_images](MVG_input_images.jpg?resize=80%)
-
 ![MVG_output_castle](MVG_output_castle.jpg?resize=40%)
 
 openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques à indiquer. Voici un exemple de _script_ qui met l'accent sur la gestion des _logs_, c'est un moyen efficace pour suivre le processus de traitement des images :
