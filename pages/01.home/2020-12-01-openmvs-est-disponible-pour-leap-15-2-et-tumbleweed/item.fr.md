@@ -6,13 +6,28 @@ feed:
     limit: 10
 ---
 
-Depuis quelques semaines, le paquet [openMVS](https://cdcseacave.github.io/openMVS/) est disponible dans le dépôt _graphics_. Il est le complément quasi-indispensable à [openMVG](http://imagine.enpc.fr/~moulonp/openMVG/) pour finaliser un modèle 3D quand on entreprend un traitement d'images par corrélation dense. Ce traitement d'images fait partie d'un sujet plus vaste qu'on nomme "Photogrammétrie". Par abus de langage on peut parfois confondre les deux, alors laissons de côté pour l'instant le terme "Photogrammétrie" et étudions simplement le traitement d'images par corrélation dense.
+Depuis quelques semaines, le paquet [openMVS](https://cdcseacave.github.io/openMVS/) est disponible dans le dépôt [graphics](https://download.opensuse.org/repositories/graphics/). Il est le complément quasi-indispensable à [openMVG](http://imagine.enpc.fr/~moulonp/openMVG/) pour finaliser un modèle 3D quand on entreprend un traitement d'images par corrélation dense. Ce traitement d'images fait partie d'un sujet plus vaste qu'on nomme "Photogrammétrie". Par abus de langage on peut parfois confondre les deux, alors laissons de côté pour l'instant le terme "Photogrammétrie" et étudions simplement le traitement d'images par corrélation dense.
 
 * Présentation d'openMVS et de ses outils
+
+L'installation du paquet openMVS est désormais possible en ajoutant le dépôt _graphics_ au préalable, comme ceci (en _root_) :  
+`zypper addrepo https://download.opensuse.org/repositories/graphics/openSUSE_Leap_15.2/graphics.repo`  
+ou :  
+`zypper addrepo https://download.opensuse.org/repositories/graphics/openSUSE_Tumbleweed/graphics.repo`
+
+puis :  
+`zypper refresh`  
+`zypper install openMVS`
+
+(note : si openMVG n'est pas installé, alors faites : `zypper install openMVG`)
 
 Le paquet openMVS propose 7 outils : 4 pour traiter les données, 2 pour convertir les objets, et 1 pour visualiser les résultats (intermédiaires ou finaux). On retiendra donc **DensifyPointCloud**, **ReconstructMesh**, **RefineMesh** et **TextureMesh** pour traiter les données produites en amont par openMVG. Chaque outil dispose de ses propres options, pour en prendre connaissance on lance alors le programme sans argument, dans un terminal.
 
 * Le principe de _pipeline_ : exemple et résultat
+
+Le but d'openMVS est de (re)créer une scène en 3 dimensions à partir du nuage de points produit par openMVG. Ce dernier est donc l'étape préliminaire indispensable à toute opération : openMVG va analyser les photographies qu'on lui indique et calculer les positions des objectifs et des points "clés" afin de proposer un rendu 3D de l'objet photographié. Car c'est bien ça le point de départ : **les photos !** (en JPG, sans zoom de préférence).
+
+En résumé : si on combine **openMVG + openMVS**, alors on a la combinaison idéale pour générer un modèle 3D texturé en HD, à partir de photos, pour autant qu'on respecte certaines règles dans le processus de traitement.
 
 D'une manière générale, on distingue 4 étapes successives dans l'élaboration d'un modèle 3D, quels que soient les _softs_ utilisés :
 
