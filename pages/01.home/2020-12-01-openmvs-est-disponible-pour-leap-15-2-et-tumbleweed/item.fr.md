@@ -12,8 +12,7 @@ Par abus de langage on peut parfois confondre les deux, alors laissons de côté
 
 ## Présentation d'openMVS et de ses outils
 
-L'installation du paquet openMVS est désormais possible en ajoutant le dépôt _graphics_ au préalable, comme ceci (en _root_) : 
-
+L'installation du paquet openMVS est désormais possible en ajoutant le dépôt _graphics_ au préalable, comme ceci (en _root_) :  
 `zypper addrepo https://download.opensuse.org/repositories/graphics/openSUSE_Leap_15.2/graphics.repo`  
 ou :  
 `zypper addrepo https://download.opensuse.org/repositories/graphics/openSUSE_Tumbleweed/graphics.repo`
@@ -28,9 +27,9 @@ Le paquet openMVS propose 7 outils : 4 pour traiter les données, 2 pour convert
 
 ## Le principe de _pipeline_ : exemple et résultat
 
-Le but d'openMVS est de (re)créer une scène en 3 dimensions à partir du nuage de points produit par openMVG. Ce dernier est donc l'étape préliminaire indispensable à toute opération : openMVG va analyser les photographies qu'on lui indique et calculer les positions des objectifs et des points "clés" afin de proposer un rendu 3D de l'objet photographié. Car c'est bien ça le point de départ : **les photos !** (en JPG, sans zoom de préférence).
+Le but d'openMVS est de (re)créer une scène en 3 dimensions à partir du jeu de données produit par openMVG. Ce dernier est donc l'étape préliminaire indispensable à toute opération : openMVG analyse les photographies qu'on lui indique et calcule les positions des objectifs et des points "clés" afin de proposer un rendu 3D de l'objet photographié. Car c'est bien ça le point de départ : **les photos !**.
 
-En résumé : si on combine **openMVG + openMVS**, alors on a la combinaison idéale pour générer un modèle 3D texturé en HD, à partir de photos, pour autant qu'on respecte certaines règles dans le processus de traitement.
+En résumé : si on associe **openMVG + openMVS**, alors on a la combinaison idéale pour générer un modèle 3D texturé en HD, à partir de simples photos (en JPG, sans zoom de préférence), pour autant qu'on respecte certaines règles dans le processus de traitement.
 
 D'une manière générale, on distingue 4 étapes successives dans l'élaboration d'un modèle 3D, quels que soient les _softs_ utilisés :
 
@@ -48,9 +47,12 @@ Et voici un exemple en images avec d'un côté les photos de départ d'un sujet 
 ![MVG_input_images](MVG_input_images.jpg?resize=80%)
 ![MVG_output_castle](MVG_output_castle.jpg?resize=40%)
 
-openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques à indiquer. Voici un exemple de _script_ qui met l'accent sur la gestion des _logs_, c'est un moyen efficace pour suivre le processus de traitement des images :
+openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques à indiquer.
 
-[_RUN_openMVG.sh](http://epysod12.free.fr/Alionet/openMVS/_RUN_openMVG.sh)
+Voici un exemple ici avec **RUN_openMVG_openMVS.sh**, en lien sur cette page : [SfM_Tools](https://gitlab.volted.net/epysod12/sfm_tools)  
+Ce _script_ met l'accent sur la gestion des _logs_, c'est un moyen efficace pour suivre le processus de traitement des images.  
 (dans cet exemple, le fichier <u>sensor_width_camera_database.txt</u> se situe dans le _home_ utilisateur)
 
-Et enfin, pour mieux comprendre les mécanismes de base, consultez la documentation ici : [openmvg.readthedocs.io](https://openmvg.readthedocs.io/en/latest/)
+Pour mieux comprendre les mécanismes de base, n'hésitez pas à consulter la documentation ici : [openmvg.readthedocs.io](https://openmvg.readthedocs.io/en/latest/)
+
+Et enfin, rendez-vous sur le forum pour approfondir un peu plus le sujet :
