@@ -27,7 +27,7 @@ Le paquet openMVS propose 7 outils : 4 pour traiter les données, 2 pour convert
 
 ## Le principe de _pipeline_ : exemple et résultat
 
-Le but d'openMVS est de (re)créer une scène en 3 dimensions à partir du jeu de données produit par openMVG. Ce dernier est donc l'étape préliminaire indispensable à toute opération : openMVG analyse les photographies qu'on lui indique et calcule les positions des objectifs et des points "clés" afin de proposer un rendu 3D de l'objet photographié. Car c'est bien ça le point de départ : **les photos !**.
+Le but d'openMVS est de (re)créer une scène en 3 dimensions à partir du jeu de données produit par openMVG. Ce dernier est donc l'étape préliminaire indispensable à toute opération : openMVG analyse les photographies qu'on lui indique et calcule les positions des objectifs et des points "clés" afin de proposer un rendu 3D de l'objet photographié. Car c'est bien ça le point de départ : **les photos !**
 
 En résumé : si on associe **openMVG + openMVS**, alors on a la combinaison idéale pour générer un modèle 3D texturé en HD, à partir de simples photos (en JPG, sans zoom de préférence), pour autant qu'on respecte certaines règles dans le processus de traitement.
 
@@ -44,7 +44,7 @@ Voyons sur un schéma comment tout cela s'articule, quand on compare à d'autres
 
 Et voici un exemple en images avec d'un côté les photos de départ d'un sujet de type architectural, et de l'autre un rendu (intermédiaire) ouvert dans MeshLab :
 
-![MVG_input_images](MVG_input_images.jpg?resize=80%)
+![MVG_input_images](MVG_input_images.jpg?resize=60%)
 ![MVG_output_castle](MVG_output_castle.jpg?resize=40%)
 
 openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques à indiquer.
