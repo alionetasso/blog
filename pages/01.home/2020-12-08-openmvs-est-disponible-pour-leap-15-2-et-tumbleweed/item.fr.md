@@ -55,4 +55,4 @@ Ce _script_ met l'accent sur la gestion des _logs_, c'est un moyen efficace pour
 
 Pour mieux comprendre les mécanismes de base, n'hésitez pas à consulter la documentation ici : [openmvg.readthedocs.io](https://openmvg.readthedocs.io/en/latest/)
 
-Et enfin, rendez-vous sur le forum pour approfondir un peu plus le sujet :
+Et enfin, rendez-vous sur le forum Alionet pour approfondir un peu plus le sujet : [Photogrammétrie ?](https://www.alionet.org/index.php?topic=736.0)
