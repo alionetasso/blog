@@ -49,7 +49,7 @@ Et voici un exemple en images avec d'un côté les photos de départ d'un sujet 
 
 openMVG et openMVS s'utilisent en ligne de commande, pas d'interface graphique autre que le **Viewer** d'openMVS (exemple de rendu dans la première image de l'article). Alors pour traiter un sujet, l'idéal est de scripter l'ensemble du processus, avec parfois des options spécifiques à indiquer.
 
-Voici un exemple ici avec **RUN_openMVG_openMVS.sh**, en lien sur cette page : [SfM_Tools](https://gitlab.volted.net/epysod12/sfm_tools)  
+Voici un exemple ici avec **RUN_openMVG_openMVS.sh**, en lien sur cette page : [SfM_Tools](https://gitlab.com/epysod12/sfm_tools)  
 Ce _script_ met l'accent sur la gestion des _logs_, c'est un moyen efficace pour suivre le processus de traitement des images.  
 (dans cet exemple, le fichier <u>sensor_width_camera_database.txt</u> se situe dans le _home_ utilisateur)
 
